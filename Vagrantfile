@@ -21,5 +21,5 @@ Vagrant.configure(2) do |config|
     vb.memory = "512"
   end
 
-  #control_config.vm.provision :shell, path: "bootstrap-control.sh"
+  #config.vm.provision :shell, path: "provisioner.sh"
 end
