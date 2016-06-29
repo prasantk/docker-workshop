@@ -21,5 +21,8 @@ Vagrant.configure(2) do |config|
     vb.memory = "512"
   end
 
+  # Install latest docker
+  config.vm.provision "docker"
+
   #config.vm.provision :shell, path: "provisioner.sh"
 end
