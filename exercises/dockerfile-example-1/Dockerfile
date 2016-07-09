@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER prasantk <coolrpk@gmail.com>
+MAINTAINER Prasant Kumar
 RUN apk update && apk add nodejs
 RUN mkdir average
 ADD average.js average/
